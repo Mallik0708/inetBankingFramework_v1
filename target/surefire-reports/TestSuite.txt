@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 82.683 sec <<< FAILURE! - in TestSuite
+loginDDT(com.inetBanking.testCases.TC_loginTest_001)  Time elapsed: 4.127 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.testCases.TC_loginTest_001.loginDDT(TC_loginTest_001.java:58)
+
+loginDDT(com.inetBanking.testCases.TC_loginTest_001)  Time elapsed: 2.667 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.testCases.TC_loginTest_001.loginDDT(TC_loginTest_001.java:58)
+
+loginDDT(com.inetBanking.testCases.TC_loginTest_001)  Time elapsed: 2.905 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.inetBanking.testCases.TC_loginTest_001.loginDDT(TC_loginTest_001.java:58)
+

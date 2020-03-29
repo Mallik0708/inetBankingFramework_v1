@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="inetBanking">
+         
+  <listeners>
+  	<listener class-name="com.inetBanking.utilities.Reporting"/>
+  </listeners>
+  
+  <test name="Guru99 inetBanking Test" >
+  	<parameter name="browser" value="chrome"/>
+	 <classes>
+<!-- 	 		 <class name="com.inetBanking.testCases.TC_loginDDT_002"/> -->
+		  <class name="com.inetBanking.testCases.TC_loginTest_001">
+		 	<methods>
+		  		<exclude name="loginTest"/>
+		  		<include name="loginDDT"/>     
+		  	</methods>	 
+		  </class> 
+		  <class name="com.inetBanking.testCases.TC_NewCustomer_003"/>   
+	 </classes>
+   </test>
+</suite>
